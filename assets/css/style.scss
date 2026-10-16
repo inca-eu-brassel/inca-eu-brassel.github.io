@@ -3,6 +3,34 @@
 
 @import "jekyll-theme-architect";
 
+/* Garante que o cabeçalho permita posicionamento absoluto dos elementos internos */
+header {
+  position: relative;
+}
+
+/* Posiciona a logo no canto direito do banner, abaixo do botão do GitHub */
+header::after {
+  content: "";
+  display: block;
+  width: 90px;                   /* Largura da logo */
+  height: 90px;                  /* Altura da logo */
+  background-image: url('/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 115px;                    /* Distância a partir do topo (abaixo do botão do GitHub) */
+  right: 10px;                   /* Alinhado à direita */
+}
+
+/* Em telas pequenas (celular), ajusta para a logo não sobrepor o texto */
+@media screen and (max-width: 768px) {
+  header::after {
+    position: static;
+    margin: 15px auto 0 auto;
+  }
+}
+
 /* Cor do banner / cabeçalho do tema Architect */
 #header_wrap, header {
   background: #2d4753 !important;
