@@ -3,13 +3,23 @@
 
 @import "jekyll-theme-architect";
 
-/* Aqui você coloca os códigos CSS para mudar as cores do tema */
+/* Cor do banner/cabeçalho do tema Architect */
+#header_wrap {
+  background: #304753;
+}
+
+/* Cor de fundo e texto principal da página */
 body {
   background-color: #efece8; /* Cor de fundo da página */
   color: #304753;            /* Cor do texto principal */
 }
 
-/* Exemplo: Mudando a cor dos títulos principais */
-h1, h2, h3 {
-  color: #2d4753;            /* Um tom de azul acadêmico */
+/* Cor dos títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #2d4753;            /* Tom de azul/cinza acadêmico */
+}
+
+/* Cor dos links para combinar com a paleta */
+a {
+  color: #2d4753;
 }
