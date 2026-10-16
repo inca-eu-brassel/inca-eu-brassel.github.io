@@ -3,23 +3,24 @@
 
 @import "jekyll-theme-architect";
 
-/* Cor do banner/cabeçalho do tema Architect */
-#header_wrap {
-  background: #304753;
+/* Cor do banner / cabeçalho do tema Architect */
+#header_wrap, header {
+  background: #304753 !important;
+  background-color: #304753 !important;
 }
 
 /* Cor de fundo e texto principal da página */
 body {
-  background-color: #efece8; /* Cor de fundo da página */
-  color: #304753;            /* Cor do texto principal */
+  background-color: #efece8 !important;
+  color: #304753 !important;
 }
 
 /* Cor dos títulos */
 h1, h2, h3, h4, h5, h6 {
-  color: #2d4753;            /* Tom de azul/cinza acadêmico */
+  color: #2d4753 !important;
 }
 
-/* Cor dos links para combinar com a paleta */
+/* Cor dos links */
 a {
-  color: #2d4753;
+  color: #2d4753 !important;
 }
