@@ -2,8 +2,8 @@
   <img src="/logo.png" alt="Logo Érika Brassel" width="120" />
 </div>
 
-# inca-eu-brassel.github.io
-Portfólio acadêmico e profissional em Engenharia Biomédica e Neurociências | UFABC
+/* # inca-eu-brassel.github.io
+Portfólio acadêmico e profissional em Engenharia Biomédica e Neurociências | UFABC */
 
 # Olá, eu sou a Erika Brassel Orellana 👋
 
