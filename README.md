@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="/foto.jpg" alt="Erika Brassel" width="120" />
-</div>
+<img src="foto.jpg" alt="Erika Brassel" width="120" />
 
 # Olá, eu sou a Erika Brassel Orellana 👋
 
