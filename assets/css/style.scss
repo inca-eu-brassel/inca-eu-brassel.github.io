@@ -12,15 +12,15 @@ header {
 header::after {
   content: "";
   display: block;
-  width: 140px;                  /* Tamanho da logo */
-  height: 140px;                 /* Tamanho da logo */
+  width: 280px;                  /* Tamanho da logo */
+  height: 280px;                 /* Tamanho da logo */
   background-image: url('/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
   top: 20px;                     /* Distância a partir do topo */
-  right: 400px;                  /* Aumentado para puxar o logo mais para a esquerda! */
+  right: 520px;                  /* Aumentado para puxar o logo mais para a esquerda! */
 }
 
 /* Em telas de celular/tablets, centraliza a logo */
