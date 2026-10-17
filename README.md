@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/logo.png" alt="Logo Érika Brassel" width="120" />
+  <img src="/foto.jpg" alt="Logo Érika Brassel" width="120" />
 </div>
 
 # Olá, eu sou a Erika Brassel Orellana 👋
