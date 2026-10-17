@@ -3,31 +3,33 @@
 
 @import "jekyll-theme-architect";
 
-/* Garante que o cabeçalho permita posicionamento absoluto dos elementos internos */
+/* Garante que o cabeçalho permita posicionamento dos elementos */
 header {
   position: relative;
 }
 
-/* Posiciona a logo no canto direito do banner, logo abaixo do botão do GitHub */
+/* Aumenta e alinha a logo Brassorell abaixo da caixa do GitHub */
 header::after {
   content: "";
   display: block;
-  width: 110px;                  /* Largura ajustada da logo */
-  height: 110px;                 /* Altura ajustada da logo */
+  width: 140px;                  /* Aumentado o tamanho da logo */
+  height: 140px;                 /* Aumentado o tamanho da logo */
   background-image: url('/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 95px;                     /* Altura exata para ficar logo abaixo do botão */
-  right: 35px;                   /* Afastado da borda direita para não cortar */
+  top: 90px;                     /* Posicionada logo abaixo do botão */
+  right: 50px;                   /* Afastada da borda para alinhar com o botão do GitHub */
 }
 
-/* Em telas pequenas (celular), ajusta para a logo não sobrepor o texto */
+/* Em telas de celular/tablets, centraliza a logo */
 @media screen and (max-width: 768px) {
   header::after {
     position: static;
-    margin: 15px auto 0 auto;
+    margin: 20px auto 0 auto;
+    width: 120px;
+    height: 120px;
   }
 }
 
