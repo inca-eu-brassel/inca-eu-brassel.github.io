@@ -8,19 +8,19 @@ header {
   position: relative;
 }
 
-/* Aumenta e alinha a logo Brassorell abaixo da caixa do GitHub */
+/* Puxa a logo mais para a esquerda, centralizando-a abaixo do botão do GitHub */
 header::after {
   content: "";
   display: block;
-  width: 140px;                  /* Aumentado o tamanho da logo */
-  height: 140px;                 /* Aumentado o tamanho da logo */
+  width: 140px;                  /* Tamanho da logo */
+  height: 140px;                 /* Tamanho da logo */
   background-image: url('/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 90px;                     /* Posicionada logo abaixo do botão */
-  right: 50px;                   /* Afastada da borda para alinhar com o botão do GitHub */
+  top: 90px;                     /* Distância a partir do topo */
+  right: 180px;                  /* Aumentado para puxar o logo mais para a esquerda! */
 }
 
 /* Em telas de celular/tablets, centraliza a logo */
