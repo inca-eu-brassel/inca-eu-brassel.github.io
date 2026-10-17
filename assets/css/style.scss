@@ -8,19 +8,19 @@ header {
   position: relative;
 }
 
-/* Posiciona a logo no canto direito do banner, abaixo do botão do GitHub */
+/* Posiciona a logo no canto direito do banner, logo abaixo do botão do GitHub */
 header::after {
   content: "";
   display: block;
-  width: 90px;                   /* Largura da logo */
-  height: 90px;                  /* Altura da logo */
+  width: 110px;                  /* Largura ajustada da logo */
+  height: 110px;                 /* Altura ajustada da logo */
   background-image: url('/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 115px;                    /* Distância a partir do topo (abaixo do botão do GitHub) */
-  right: 10px;                   /* Alinhado à direita */
+  top: 95px;                     /* Altura exata para ficar logo abaixo do botão */
+  right: 35px;                   /* Afastado da borda direita para não cortar */
 }
 
 /* Em telas pequenas (celular), ajusta para a logo não sobrepor o texto */
