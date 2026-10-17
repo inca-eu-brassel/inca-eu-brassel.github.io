@@ -10,11 +10,11 @@ Sou graduanda em **Engenharia Biomédica e Neurociências** na Universidade Fede
 
 ## 🚀 Projetos em Destaque
 
-### [Integração de Sistema de Bioimpedância Elétrica (Trabalho de Graduação)](./bioimpedancia-tg)
-* **Descrição:** Projeto de integração entre hardware em microcontrolador STM32 e interface gráfica em Processing, unindo e dando continuidade aos trabalhos prévios de instrumentação e software.
-* **Estrutura do Repositório:** 
-  * 📚 [Conteúdos e Estudo](./bioimpedancia-tg#conteudos-e-estudo) (Bases teóricas, STM32, Processing e referências)
-  * 🛠️ [Desenvolvimento e Histórico](./bioimpedancia-tg#desenvolvimento-e-historico) (Evolução prática da integração e diário de bordo)
+### 🔬 [Integração de Sistema de Bioimpedância Elétrica (Trabalho de Graduação)](https://github.com/inca-eu-brassel/bioimpedancia-tg)
+* **Descrição:** Projeto de integração entre hardware STM32 e interface em Processing para bioimpedância elétrica.
+* **Explorar Seções:**
+  * 📚 [Conteúdos e Estudo](https://github.com/inca-eu-brassel/bioimpedancia-tg#conteúdos-e-estudo) (Bases teóricas, STM32 e Processing)
+  * 🛠️ [Desenvolvimento e Histórico](https://github.com/inca-eu-brassel/bioimpedancia-tg#desenvolvimento-e-histórico) (Diário de bordo e evolução prática)
 
 ---
 
