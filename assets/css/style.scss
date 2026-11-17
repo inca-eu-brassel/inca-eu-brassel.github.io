@@ -12,8 +12,8 @@ header {
 header::after {
   content: "";
   display: block;
-  width: 220px;                  /* Tamanho da logo */
-  height: 220px;                 /* Tamanho da logo */
+  width: 170px;                  /* Tamanho da logo */
+  height: 170px;                 /* Tamanho da logo */
   background-image: url('/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
